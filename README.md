@@ -1,5 +1,7 @@
 ## Project: A mini project on vertical lift bridge simulation
 
+![](images/output.png)
+
 To simulate a lift bridge, we drew a scene. The basic idea is the scene, over the bridge,a railroad track is placed. When there is no boat passing the water, the bridge need not be lifted, the signal light for the train is green and the train can pass over the bridge. If a boat needs to cross the river, the bridges need to be lifted and the signal light for the train has to turn red. Once it turns red, the passing train stops, the bridge is lifted, the boat passes and the bridge is drawn down again so that the light switches to green again and the train passes as usual. To add more realism in the scene, we also added an airplane that is flying in the sky. In order to make the project more user friendly, we also made a welcome screen which is revoked before the main project screen.
 
 ### Scene Description:
@@ -15,6 +17,10 @@ To simulate a lift bridge, we drew a scene. The basic idea is the scene, over th
   -  An airplane
   -  A lighthouse
   -  A passing signal light
+
+### Methodology:
+
+![](images/project_workflow.png)
 
 ### Implementation:
 We made several user defined functions to implement this project. Also, we took help from the GLUT API documentation version 3 and the OpenGL 2.1 reference documentation to use several glut library functions and gl library functions respectively. In this project, the functions can be divided into three categories:
